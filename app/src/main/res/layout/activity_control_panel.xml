@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".activities.ControlPanelActivity">
+
+    <Button
+        android:id="@+id/btn_acp_stop"
+        style="@style/CPButtonStyle"
+        android:text="Stop" />
+
+    <Button
+        android:id="@+id/btn_acp_resume"
+        style="@style/CPButtonStyle"
+        android:text="Resume" />
+
+    <Button
+        android:id="@+id/btn_acp_next"
+        style="@style/CPButtonStyle"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/btn_acp_add_item"
+        style="@style/CPButtonStyle"
+        android:text="Add Item" />
+
+    <Button
+        android:id="@+id/btn_acp_billing"
+        style="@style/CPButtonStyle"
+        android:text="Billing" />
+
+    <Button
+        android:id="@+id/btn_acp_abort"
+        style="@style/CPButtonStyle"
+        android:text="Abort" />
+</LinearLayout>
